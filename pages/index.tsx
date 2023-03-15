@@ -68,5 +68,15 @@ const Home: NextPage = () => {
     </div>
   )
 }
+import PostGrid from '../components/PostGrid';
+
+function HomePage() {
+  return (
+    <div>
+      <h1>Latest Posts</h1>
+      <PostGrid />
+    </div>
+  );
+}
 
 export default Home
