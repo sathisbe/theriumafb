@@ -68,7 +68,7 @@ const Home: NextPage = () => {
     </div>
   )
 }
-import PostGrid from 'PostGrid';
+import PostGrid from '/pages/PostGrid';
 
 function HomePage() {
   return (
